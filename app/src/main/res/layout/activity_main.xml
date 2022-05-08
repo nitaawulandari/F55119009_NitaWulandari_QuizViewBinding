@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- Ahmad Dahlan -->
+    <ImageView
+        android:id="@+id/img_photo1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/txt_name1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_toEndOf="@+id/img_photo1"
+        android:text="Nama Pahlawan"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_description1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_name1"
+        android:layout_marginStart="26dp"
+        android:paddingTop="16dp"
+        android:layout_toRightOf="@id/img_photo1"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:text="lorem ipsum dolor sit amet"/>
+
+    <!-- Ahmad Yani -->
+    <ImageView
+        android:layout_marginVertical="300px"
+        android:id="@+id/img_photo2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/txt_name2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_toEndOf="@id/img_photo2"
+        android:layout_alignTop="@id/img_photo2"
+        android:text="Nama Pahlawan"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_description2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_name2"
+        android:layout_marginStart="26dp"
+        android:paddingTop="16dp"
+        android:layout_toRightOf="@id/img_photo2"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:text="lorem ipsum dolor sit amet"/>
+
+    <!-- Sutomo -->
+    <ImageView
+        android:layout_marginVertical="600px"
+        android:id="@+id/img_photo3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/txt_name3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_toEndOf="@id/img_photo3"
+        android:layout_alignTop="@id/img_photo3"
+        android:text="Nama Pahlawan"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_description3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_name3"
+        android:layout_marginStart="26dp"
+        android:paddingTop="16dp"
+        android:layout_toRightOf="@id/img_photo3"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:text="lorem ipsum dolor sit amet"/>
+
+    <!-- Gatot Soebroto -->
+    <ImageView
+        android:layout_marginVertical="900px"
+        android:id="@+id/img_photo4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/txt_name4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_toEndOf="@id/img_photo4"
+        android:layout_alignTop="@id/img_photo4"
+        android:text="Nama Pahlawan"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_description4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_name4"
+        android:layout_marginStart="26dp"
+        android:paddingTop="16dp"
+        android:layout_toRightOf="@id/img_photo4"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:text="lorem ipsum dolor sit amet"/>
+
+    <!-- Ki Hajar Dewantara -->
+    <ImageView
+        android:layout_marginVertical="1200px"
+        android:id="@+id/img_photo5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/txt_name5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_toEndOf="@id/img_photo5"
+        android:layout_alignTop="@id/img_photo5"
+        android:text="Nama Pahlawan"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_description5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_name5"
+        android:layout_marginStart="26dp"
+        android:paddingTop="16dp"
+        android:layout_toRightOf="@id/img_photo5"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:text="lorem ipsum dolor sit amet"/>
+
+    <!-- Mohammad Hatta -->
+    <ImageView
+        android:layout_marginVertical="1500px"
+        android:id="@+id/img_photo6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/txt_name6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_toEndOf="@id/img_photo6"
+        android:layout_alignTop="@id/img_photo6"
+        android:text="Nama Pahlawan"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_description6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_name6"
+        android:layout_marginStart="26dp"
+        android:paddingTop="16dp"
+        android:layout_toRightOf="@id/img_photo6"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:text="lorem ipsum dolor sit amet"/>
+
+    <!-- Soedirman -->
+    <ImageView
+        android:layout_marginVertical="1800px"
+        android:id="@+id/img_photo7"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/txt_name7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_toEndOf="@id/img_photo7"
+        android:layout_alignTop="@id/img_photo7"
+        android:text="Nama Pahlawan"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_description7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_name7"
+        android:layout_marginStart="26dp"
+        android:paddingTop="16dp"
+        android:layout_toRightOf="@id/img_photo6"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:text="lorem ipsum dolor sit amet"/>
+
+    <!-- Soekarno -->
+    <ImageView
+        android:layout_marginVertical="2100px"
+        android:id="@+id/img_photo8"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/txt_name8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_toEndOf="@id/img_photo8"
+        android:layout_alignTop="@id/img_photo8"
+        android:text="Nama Pahlawan"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_description8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_name8"
+        android:layout_marginStart="26dp"
+        android:paddingTop="16dp"
+        android:layout_toRightOf="@id/img_photo8"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:text="lorem ipsum dolor sit amet"/>
+
+    <!-- Soepomo -->
+    <ImageView
+        android:layout_marginVertical="2400px"
+        android:id="@+id/img_photo9"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/txt_name9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_toEndOf="@id/img_photo9"
+        android:layout_alignTop="@id/img_photo9"
+        android:text="Nama Pahlawan"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_description9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_name9"
+        android:layout_marginStart="26dp"
+        android:paddingTop="16dp"
+        android:layout_toRightOf="@id/img_photo9"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:text="lorem ipsum dolor sit amet"/>
+
+    <!-- Tan Malaka -->
+    <ImageView
+        android:layout_marginVertical="2700px"
+        android:id="@+id/img_photo10"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/txt_name10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_toEndOf="@id/img_photo10"
+        android:layout_alignTop="@id/img_photo10"
+        android:text="Nama Pahlawan"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_description10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_name10"
+        android:layout_marginStart="26dp"
+        android:paddingTop="16dp"
+        android:layout_toRightOf="@id/img_photo10"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:text="lorem ipsum dolor sit amet"/>
+
+</RelativeLayout>
